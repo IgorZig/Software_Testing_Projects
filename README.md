@@ -5,8 +5,10 @@ This repository contains a list of all the projects completed during my manual t
 
 | Project Name | Description | Tools Used |
 |--------------|-------------|------------|
-| Project 1    | Tested a web application for functionality and usability. | JIRA, Selenium |
-| Project 2    | Tested a mobile application for compatibility across different devices. | Appium, TestLink |
+| Project 1    | Tested a web application for functionality and usability. | JIRA, Manual Testing |
+| Project 3    | Software-Testing- Rest API Test Automation Projects. | Java, RestAssured,Git,Github,Jenkins |
+| Project 4    | Software-Testing- API Test Projects. | Postman |
+| Project 5    | Software-Testing- Database Testing. | SQL |
 
 ## Getting Started
 
@@ -20,36 +22,3 @@ If you have any feedback or suggestions for improvements, please feel free to op
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 You can copy and paste this code into a Markdown file and modify the text as needed.
-
-
-
-
-
-
-
-## Templates
-- Test Plan
-- Test Cases
-- Bug Report
-- RTM
-- Test Reports
-- Test Metrics
-
-
-demo.opencart.com
-- Test Plan
-- Test Cases
-- Bug Report
-- RTM
-- Test Reports
-- Test Metrics
-
-### Project 2
-- Test Plan
-- Test Cases
-- Bug Report
-- RTM
-- Test Reports
-- Test Metrics
-
-
