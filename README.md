@@ -5,8 +5,9 @@ This repository contains a list of all the projects completed during my manual t
 
 | Project Name | Description | Tools Used |
 |--------------|-------------|------------|
-| Project 1    | Tested a web application for functionality and usability. | JIRA, Manual Testing |
-| Project 3    | Software-Testing- Rest API Test Automation Projects. | Java, RestAssured,Git,Github,Jenkins |
+| Project 1 - Manual Testing-E-commerce    | Manual testing of an e-commerce web application, focusing on functionality, usability, and responsiveness. | JIRA, Excel, Manual Testing |
+| Project 2 -  Automation-Selenium-E-commerce    | Selenium-based test automation framework for an E-commerce application. It is designed to automate UI testing, ensuring seamless user interactions, functionality validation, and regression testing..| Java, Selenium, TestNG, Maven,Extent Reports, Git, Github, Jenkins |
+| Project 3 - Rest API Test Automation-E-commerce    | Software-Testing- Rest API Test Automation Projects. | Java, RestAssured,Git,Github,Jenkins |
 | Project 4    | Software-Testing- API Test Projects. | Postman |
 | Project 5    | Software-Testing- Database Testing. | SQL |
 
