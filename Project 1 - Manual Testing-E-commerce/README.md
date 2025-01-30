@@ -35,4 +35,4 @@ This testing project provided **valuable insights** into the platform’s usabil
 
 ## Conclusion
 
-This project provides a thorough assessment of the OpenCart Demo platform's quality and user experience. The findings and recommendations will help improve the functionality and usability of the e-commerce site.
+This project provides a thorough assessment of an **e-commerce web application** platform's quality and user experience. The findings and recommendations will help improve the functionality and usability of the e-commerce site.
