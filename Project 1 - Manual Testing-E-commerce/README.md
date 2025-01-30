@@ -1,52 +1,35 @@
+# 📌 Manual Testing Project: E-Commerce Web Application  
 
+## 🔍 Project Overview  
+This project involves comprehensive **manual testing** of an **e-commerce web application** to evaluate its **functionality, usability, and performance** while identifying defects and areas for improvement.  
 
-# Manual Testing Project for OpenCart Demo
+## 🎯 Project Objectives  
+- ✅ Identify **functional and non-functional defects**.  
+- ✅ Validate key workflows such as **product search, checkout, and user registration**.  
+- ✅ Ensure compliance with **usability standards** for a seamless shopping experience.  
+- ✅ Provide actionable feedback to enhance the platform’s overall quality.  
 
-This project involves comprehensive manual testing of the **OpenCart Demo** website ([demo.opencart.com](https://demo.opencart.com)). The objective is to evaluate the functionality, usability, and performance of the platform while documenting any defects or improvements.
+## 🛠️ Test Scope  
+### 🔹 Features Tested  
+- **🏠 Homepage**: Layout, navigation, banner functionality, and featured product links.  
+- **👤 User Account**: Registration, login/logout, password reset, and profile updates.  
+- **🛍️ Product Pages**: Search, filters, product details, images, and reviews.  
+- **🛒 Shopping Cart & Checkout**: Adding/removing items, applying coupons, order total calculations, and payment methods.  
+- **⚙️ Admin Panel**: Login authentication, product, order, and customer management.  
+- **📱 Responsive Design**: Testing across **desktop, tablet, and mobile devices**.  
 
-## Project Objectives
+## 🧰 Tools & Technologies Used  
+- 🌐 **Browsers**: Google Chrome, Firefox, Safari (for cross-browser testing).  
+- 📝 **Issue Tracking**: Jira, Excel (defect tracking).  
+- 📑 **Test Management**: Jira, Excel (test case documentation).  
 
--   Identify functional and non-functional defects in the OpenCart Demo.
--   Validate critical workflows such as product search, checkout, and user registration.
--   Ensure compliance with usability standards for an e-commerce platform.
--   Provide actionable feedback to improve the overall quality of the website.
+## 📌 Project Outcome  
+This testing project provided **valuable insights** into the platform’s usability and functionality. The **identified defects and recommendations** contribute to improving the **overall user experience and reliability** of the e-commerce site.  
 
-----------
-
-## Test Scope
-
-### Features Tested:
-
-1.  **Homepage**:
-    
-    -   Layout, navigation, and responsiveness.
-    -   Banner functionality and featured product links.
-2.  **User Account**:
-    
-    -   Registration, login, and logout functionalities.
-    -   Password reset and profile update workflows.
-3.  **Product Pages**:
-    
-    -   Search and filter functionality.
-    -   Product details, images, and reviews.
-4.  **Shopping Cart & Checkout**:
-    
-    -   Add/remove items to/from the cart.
-    -   Apply coupons, calculate totals, and payment methods.
-5.  **Admin Panel**:
-    
-    -   Login authentication.
-    -   Management of products, orders, and customers.
-6.  **Responsive Design**:
-    
-    -   Testing across desktop, tablet, and mobile devices.
-
-----------
-## Tools Used
-
--   **Browser**: Google Chrome, Firefox, Safari (for cross-browser testing).
--   **Issue Tracking**: Jira and Excel (defect tracking).
--   **Test Management**: Jira and Excel for test case documentation.
+## 📊 Project Summary  
+| **Project Name**         | **Description**                                                             | **Tools Used**           |  
+|--------------------------|---------------------------------------------------------------------------|--------------------------|  
+| E-Commerce Testing       | Manual testing of an e-commerce web application, focusing on functionality, usability, and responsiveness. | JIRA, Excel, Manual Testing |  
 
 ----------
 
