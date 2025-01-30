@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-30T10:23:57 GMT" name="Suite" finished-at="2025-01-30T10:26:05 GMT" duration-ms="127974">
+    <groups>
+    </groups>
+    <test started-at="2025-01-30T10:23:57 GMT" name="Submit Order Test" finished-at="2025-01-30T10:26:05 GMT" duration-ms="127974">
+      <class name="ecommerce.tests.UserRegistrationTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:23:57 GMT" name="launchApplication" finished-at="2025-01-30T10:24:05 GMT" duration-ms="7929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateEmailFormat()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:05 GMT" name="validateEmailFormat" description="TC_RF_003: Validate email format during registration" finished-at="2025-01-30T10:24:07 GMT" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmailFormat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:07 GMT" name="tearDown" finished-at="2025-01-30T10:24:08 GMT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:08 GMT" name="launchApplication" finished-at="2025-01-30T10:24:13 GMT" duration-ms="5078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateMandatoryFieldErrors()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:13 GMT" name="validateMandatoryFieldErrors" description="TC_RF_002: Validate error messages for missing mandatory fields" finished-at="2025-01-30T10:24:24 GMT" duration-ms="11653" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Last Name error message mismatch. expected [*Last Name is required] but found [Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='lastName']/following-sibling::div']]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Last Name error message mismatch. expected [*Last Name is required] but found [Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='lastName']/following-sibling::div']
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at ecommerce.tests.UserRegistrationTests.validateMandatoryFieldErrors(UserRegistrationTests.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMandatoryFieldErrors -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:25 GMT" name="tearDown" finished-at="2025-01-30T10:24:25 GMT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:25 GMT" name="launchApplication" finished-at="2025-01-30T10:24:32 GMT" duration-ms="6826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateMultipleInvalidEmails(java.lang.String)[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:32 GMT" name="validateMultipleInvalidEmails" description="TC_RF_003: Validate multiple invalid email formats" data-provider="invalidEmailData" finished-at="2025-01-30T10:24:34 GMT" duration-ms="2228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[plainaddress]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleInvalidEmails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:34 GMT" name="tearDown" finished-at="2025-01-30T10:24:34 GMT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:34 GMT" name="launchApplication" finished-at="2025-01-30T10:24:39 GMT" duration-ms="4829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateMultipleInvalidEmails(java.lang.String)[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:39 GMT" name="validateMultipleInvalidEmails" description="TC_RF_003: Validate multiple invalid email formats" data-provider="invalidEmailData" finished-at="2025-01-30T10:24:41 GMT" duration-ms="2280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@missingusername.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleInvalidEmails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:41 GMT" name="tearDown" finished-at="2025-01-30T10:24:41 GMT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:41 GMT" name="launchApplication" finished-at="2025-01-30T10:24:47 GMT" duration-ms="5412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateMultipleInvalidEmails(java.lang.String)[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:47 GMT" name="validateMultipleInvalidEmails" description="TC_RF_003: Validate multiple invalid email formats" data-provider="invalidEmailData" finished-at="2025-01-30T10:24:49 GMT" duration-ms="2227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username@.com.my]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleInvalidEmails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:49 GMT" name="tearDown" finished-at="2025-01-30T10:24:49 GMT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:49 GMT" name="launchApplication" finished-at="2025-01-30T10:24:54 GMT" duration-ms="5313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateMultipleInvalidEmails(java.lang.String)[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:54 GMT" name="validateMultipleInvalidEmails" description="TC_RF_003: Validate multiple invalid email formats" data-provider="invalidEmailData" finished-at="2025-01-30T10:24:57 GMT" duration-ms="2283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username@domain..com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleInvalidEmails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:57 GMT" name="tearDown" finished-at="2025-01-30T10:24:57 GMT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:24:57 GMT" name="launchApplication" finished-at="2025-01-30T10:25:02 GMT" duration-ms="5289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateMultipleInvalidEmails(java.lang.String)[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:02 GMT" name="validateMultipleInvalidEmails" description="TC_RF_003: Validate multiple invalid email formats" data-provider="invalidEmailData" finished-at="2025-01-30T10:25:04 GMT" duration-ms="2247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username@domain,com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleInvalidEmails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:04 GMT" name="tearDown" finished-at="2025-01-30T10:25:04 GMT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:04 GMT" name="launchApplication" finished-at="2025-01-30T10:25:10 GMT" duration-ms="5420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyPasswordStrengthValidation()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:10 GMT" name="verifyPasswordStrengthValidation" description="TC_RF_004: Verify password strength validation" finished-at="2025-01-30T10:25:12 GMT" duration-ms="2684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordStrengthValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:12 GMT" name="tearDown" finished-at="2025-01-30T10:25:13 GMT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:14 GMT" name="launchApplication" finished-at="2025-01-30T10:25:18 GMT" duration-ms="4828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyRegistrationWithValidDetails(java.util.HashMap)[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:18 GMT" name="verifyRegistrationWithValidDetails" description="TC_RF_001: Verify user registration with valid details" data-provider="getData" finished-at="2025-01-30T10:25:31 GMT" duration-ms="12764" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Donny, lastName=Ullrich, password=>lp0yasV, phoneNumber=1534623168, occupation=Lead Administrator, gender=Female, confirmPassword=>lp0yasV, email=zachariah.bahringer@gmail.com, isAdult=true}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(), 'Account Created Successfully')]"}
+  (Session info: chrome=132.0.6834.159)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3d820010d2cde85cc7dae555e7769af, findElement {using=xpath, value=//h1[contains(text(), 'Account Created Successfully')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.159, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\tstar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3466}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3466/devtool..., se:cdpVersion: 132.0.6834.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3d820010d2cde85cc7dae555e7769af]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(), 'Account Created Successfully')]"}
+  (Session info: chrome=132.0.6834.159)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3d820010d2cde85cc7dae555e7769af, findElement {using=xpath, value=//h1[contains(text(), 'Account Created Successfully')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.159, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\tstar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3466}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3466/devtool..., se:cdpVersion: 132.0.6834.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3d820010d2cde85cc7dae555e7769af
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at ecommerce.tests.UserRegistrationTests.verifyRegistrationWithValidDetails(UserRegistrationTests.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:31 GMT" name="tearDown" finished-at="2025-01-30T10:25:32 GMT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:32 GMT" name="launchApplication" finished-at="2025-01-30T10:25:37 GMT" duration-ms="5192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyRegistrationWithValidDetails(java.util.HashMap)[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:37 GMT" name="verifyRegistrationWithValidDetails" description="TC_RF_001: Verify user registration with valid details" data-provider="getData" finished-at="2025-01-30T10:25:40 GMT" duration-ms="2881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Genna, lastName=Rohan, password=fq&p9kvG, phoneNumber=1728127515, occupation=Customer Officer, gender=Female, confirmPassword=fq&p9kvG, email=kerry.hayes@hotmail.com, isAdult=true}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:40 GMT" name="tearDown" finished-at="2025-01-30T10:25:40 GMT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:40 GMT" name="launchApplication" finished-at="2025-01-30T10:25:46 GMT" duration-ms="6241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyRegistrationWithValidDetails(java.util.HashMap)[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:46 GMT" name="verifyRegistrationWithValidDetails" description="TC_RF_001: Verify user registration with valid details" data-provider="getData" finished-at="2025-01-30T10:25:48 GMT" duration-ms="2529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=George, lastName=Wunsch, password=zzm7)etV, phoneNumber=1523036198, occupation=Advertising Architect, gender=Male, confirmPassword=zzm7)etV, email=christel.reichert@yahoo.com, isAdult=true}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:48 GMT" name="tearDown" finished-at="2025-01-30T10:25:49 GMT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:49 GMT" name="launchApplication" finished-at="2025-01-30T10:25:54 GMT" duration-ms="5274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyRegistrationWithValidDetails(java.util.HashMap)[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:54 GMT" name="verifyRegistrationWithValidDetails" description="TC_RF_001: Verify user registration with valid details" data-provider="getData" finished-at="2025-01-30T10:25:57 GMT" duration-ms="2878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Dewey, lastName=Shanahan, password=v4<eEpmd, phoneNumber=1482366169, occupation=IT Engineer, gender=Female, confirmPassword=v4<eEpmd, email=shelby.gibson@gmail.com, isAdult=true}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:57 GMT" name="tearDown" finished-at="2025-01-30T10:25:57 GMT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:25:57 GMT" name="launchApplication" finished-at="2025-01-30T10:26:02 GMT" duration-ms="5082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyRegistrationWithValidDetails(java.util.HashMap)[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:26:02 GMT" name="verifyRegistrationWithValidDetails" description="TC_RF_001: Verify user registration with valid details" data-provider="getData" finished-at="2025-01-30T10:26:05 GMT" duration-ms="2946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Lilli, lastName=Lueilwitz, password=6hZoi&sv, phoneNumber=1352192657, occupation=Administration Assistant, gender=Female, confirmPassword=6hZoi&sv, email=kerrie.gorczany@gmail.com, isAdult=true}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.UserRegistrationTests@660acfb]" started-at="2025-01-30T10:26:05 GMT" name="tearDown" finished-at="2025-01-30T10:26:05 GMT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerce.tests.UserRegistrationTests -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>

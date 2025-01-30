@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Submit Order Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">127,974</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Submit Order Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">ecommerce.tests.UserRegistrationTests</td><td><a href="#m0">validateMandatoryFieldErrors</a></td><td rowspan="1">1738232653114</td><td rowspan="1">11653</td></tr><tr class="failedeven"><td><a href="#m1">verifyRegistrationWithValidDetails</a></td><td rowspan="1">1738232718836</td><td rowspan="1">12764</td></tr><tr><th colspan="4">Submit Order Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="11">ecommerce.tests.UserRegistrationTests</td><td><a href="#m2">validateEmailFormat</a></td><td rowspan="1">1738232645529</td><td rowspan="1">2391</td></tr><tr class="passedeven"><td><a href="#m3">validateMultipleInvalidEmails</a></td><td rowspan="5">1738232679325</td><td rowspan="5">2280</td></tr><tr class="passedeven"><td><a href="#m4">validateMultipleInvalidEmails</a></td></tr><tr class="passedeven"><td><a href="#m5">validateMultipleInvalidEmails</a></td></tr><tr class="passedeven"><td><a href="#m6">validateMultipleInvalidEmails</a></td></tr><tr class="passedeven"><td><a href="#m7">validateMultipleInvalidEmails</a></td></tr><tr class="passedeven"><td><a href="#m8">verifyPasswordStrengthValidation</a></td><td rowspan="1">1738232710242</td><td rowspan="1">2684</td></tr><tr class="passedeven"><td><a href="#m9">verifyRegistrationWithValidDetails</a></td><td rowspan="4">1738232762447</td><td rowspan="4">2946</td></tr><tr class="passedeven"><td><a href="#m10">verifyRegistrationWithValidDetails</a></td></tr><tr class="passedeven"><td><a href="#m11">verifyRegistrationWithValidDetails</a></td></tr><tr class="passedeven"><td><a href="#m12">verifyRegistrationWithValidDetails</a></td></tr></tbody>
+</table>
+<h2>Submit Order Test</h2><h3 id="m0">ecommerce.tests.UserRegistrationTests#validateMandatoryFieldErrors</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Last Name error message mismatch. expected [*Last Name is required] but found [Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@id=&apos;lastName&apos;]/following-sibling::div&apos;]
+	at ecommerce.tests.UserRegistrationTests.validateMandatoryFieldErrors(UserRegistrationTests.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ecommerce.tests.UserRegistrationTests#verifyRegistrationWithValidDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{firstName=Donny, lastName=Ullrich, password=&gt;lp0yasV, phoneNumber=1534623168, occupation=Lead Administrator, gender=Female, confirmPassword=&gt;lp0yasV, email=zachariah.bahringer@gmail.com, isAdult=true}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[contains(text(), &apos;Account Created Successfully&apos;)]&quot;}
+  (Session info: chrome=132.0.6834.159)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3d820010d2cde85cc7dae555e7769af, findElement {using=xpath, value=//h1[contains(text(), &apos;Account Created Successfully&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.159, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\tstar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3466}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3466/devtool..., se:cdpVersion: 132.0.6834.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3d820010d2cde85cc7dae555e7769af
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at ecommerce.tests.UserRegistrationTests.verifyRegistrationWithValidDetails(UserRegistrationTests.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ecommerce.tests.UserRegistrationTests#validateEmailFormat</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">ecommerce.tests.UserRegistrationTests#validateMultipleInvalidEmails</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>@missingusername.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ecommerce.tests.UserRegistrationTests#validateMultipleInvalidEmails</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>username@domain..com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">ecommerce.tests.UserRegistrationTests#validateMultipleInvalidEmails</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>username@.com.my</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">ecommerce.tests.UserRegistrationTests#validateMultipleInvalidEmails</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>username@domain,com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">ecommerce.tests.UserRegistrationTests#validateMultipleInvalidEmails</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>plainaddress</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">ecommerce.tests.UserRegistrationTests#verifyPasswordStrengthValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">ecommerce.tests.UserRegistrationTests#verifyRegistrationWithValidDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{firstName=Lilli, lastName=Lueilwitz, password=6hZoi&amp;sv, phoneNumber=1352192657, occupation=Administration Assistant, gender=Female, confirmPassword=6hZoi&amp;sv, email=kerrie.gorczany@gmail.com, isAdult=true}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">ecommerce.tests.UserRegistrationTests#verifyRegistrationWithValidDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{firstName=Genna, lastName=Rohan, password=fq&amp;p9kvG, phoneNumber=1728127515, occupation=Customer Officer, gender=Female, confirmPassword=fq&amp;p9kvG, email=kerry.hayes@hotmail.com, isAdult=true}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">ecommerce.tests.UserRegistrationTests#verifyRegistrationWithValidDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{firstName=Dewey, lastName=Shanahan, password=v4&lt;eEpmd, phoneNumber=1482366169, occupation=IT Engineer, gender=Female, confirmPassword=v4&lt;eEpmd, email=shelby.gibson@gmail.com, isAdult=true}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">ecommerce.tests.UserRegistrationTests#verifyRegistrationWithValidDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{firstName=George, lastName=Wunsch, password=zzm7)etV, phoneNumber=1523036198, occupation=Advertising Architect, gender=Male, confirmPassword=zzm7)etV, email=christel.reichert@yahoo.com, isAdult=true}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
