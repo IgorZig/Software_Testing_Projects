@@ -29,7 +29,7 @@ This testing project provided **valuable insights** into the platform’s usabil
 ## 📊 Project Summary  
 | **Project Name**         | **Description**                                                             | **Tools Used**           |  
 |--------------------------|---------------------------------------------------------------------------|--------------------------|  
-| E-Commerce Testing       | Manual testing of an e-commerce web application, focusing on functionality, usability, and responsiveness. | JIRA, Excel, Manual Testing |  
+| Manual Testing-E-commerce       | Manual testing of an e-commerce web application, focusing on functionality, usability, and responsiveness. | JIRA, Excel, Manual Testing |  
 
 ----------
 
