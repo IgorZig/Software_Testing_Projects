@@ -2,10 +2,10 @@
 
 ![image](https://github.com/user-attachments/assets/d9cc0503-1741-420f-8cc1-3d89b23c5000)
 
-[📺 Watch Full Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/IgorZig/Software_Testing_Projects/blob/main/Project%203%20-%20Rest%20API%20Test%20Automation-E-commerce/ApiPetStoreAutomation.mp4)
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/IgorZig/Software_Testing_Projects/blob/main/Project%203%20-%20Rest%20API%20Test%20Automation-E-commerce/ApiPetStoreAutomation.mp4)
 ![Preview](https://github.com/IgorZig/Software_Testing_Projects/blob/main/Project%203%20-%20Rest%20API%20Test%20Automation-E-commerce/ApiPetStoreAutomation-ezgif.com-video-to-gif-converter.gif)
 
-[📺 Watch Full Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/IgorZig/Software_Testing_Projects/blob/main/Project%203%20-%20Rest%20API%20Test%20Automation-E-commerce/JenkinsPetStore.mp4)
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/IgorZig/Software_Testing_Projects/blob/main/Project%203%20-%20Rest%20API%20Test%20Automation-E-commerce/JenkinsPetStore.mp4)
 
 ![Preview](https://github.com/IgorZig/Software_Testing_Projects/blob/main/Project%203%20-%20Rest%20API%20Test%20Automation-E-commerce/JenkinsPetStore-ezgif.com-video-to-gif-converter.gif)
 
