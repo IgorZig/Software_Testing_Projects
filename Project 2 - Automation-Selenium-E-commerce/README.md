@@ -1,3 +1,6 @@
+# 🛒 Selenium Automation Framework - E-commerce  
+**Author:** Igor Zig 
+
 ![Preview](https://github.com/IgorZig/Software_Testing_Projects/blob/main/Project%202%20-%20Automation-Selenium-E-commerce/JenkinsSeleniumProject-ezgif.com-video-to-gif-converter.gif)
 
 
