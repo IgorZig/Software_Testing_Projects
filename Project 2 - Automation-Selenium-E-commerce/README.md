@@ -1,7 +1,3 @@
-![Preview](https://github.com/IgorZig/Software_Testing_Projects/blob/main/Project%202%20-%20Automation-Selenium-E-commerce/JenkinsSeleniumProject-ezgif.com-video-to-gif-converter.gif)
-
-![Preview](https://github.com/IgorZig/Software_Testing_Projects/blob/main/Project%202%20-%20Automation-Selenium-E-commerce/SeleniumEcommerceAutomation-ezgif.com-video-to-gif-converter.gif)
-
 ```markdown
 # 🛒 Selenium Automation Framework - E-commerce  
 **Author:** Igor Zig 
@@ -61,7 +57,10 @@ SeleniumFrameworkDesign
 │── pom.xml                                    # Maven dependencies
 
 ```
+![Preview](https://github.com/IgorZig/Software_Testing_Projects/blob/main/Project%202%20-%20Automation-Selenium-E-commerce/JenkinsSeleniumProject-ezgif.com-video-to-gif-converter.gif)
 
+//
+![Preview](https://github.com/IgorZig/Software_Testing_Projects/blob/main/Project%202%20-%20Automation-Selenium-E-commerce/SeleniumEcommerceAutomation-ezgif.com-video-to-gif-converter.gif)
 ### 🔹 **Test Data Usage**
 - **DataGenerator.java** → Generates random test data (names, emails, etc.).
 - **DataReader.java** → Reads data from JSON files and external sources.
