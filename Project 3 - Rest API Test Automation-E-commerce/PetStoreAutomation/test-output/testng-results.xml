@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-03T20:22:59 GMT" name="Default suite" finished-at="2025-02-03T20:23:08 GMT" duration-ms="8876">
+    <groups>
+    </groups>
+    <test started-at="2025-02-03T20:22:59 GMT" name="Default test" finished-at="2025-02-03T20:23:08 GMT" duration-ms="8876">
+      <class name="api.test.UserTests">
+        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:api.test.UserTests@2cf3d63b]" started-at="2025-02-03T20:22:58 GMT" name="baseSetUp" finished-at="2025-02-03T20:22:59 GMT" duration-ms="1444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetUp -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests@2cf3d63b]" started-at="2025-02-03T20:22:59 GMT" name="testPostUser" description="Test user creation with status, headers, and response time validations" finished-at="2025-02-03T20:23:04 GMT" duration-ms="4704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests@2cf3d63b]" started-at="2025-02-03T20:23:04 GMT" name="testGetUserByName" description="Test retrieving user details with JSON validations" finished-at="2025-02-03T20:23:06 GMT" duration-ms="1680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests@2cf3d63b]" started-at="2025-02-03T20:23:06 GMT" name="testUpdateUserByName" description="Test updating user details and verifying the update" finished-at="2025-02-03T20:23:07 GMT" duration-ms="1256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests@2cf3d63b]" started-at="2025-02-03T20:23:07 GMT" name="testDeleteUserByName" description="Test deleting user and verifying the deletion" finished-at="2025-02-03T20:23:08 GMT" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
